@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-container">
+        <video src="https://media.istockphoto.com/id/1370525443/video/european-dipper-on-the-top-of-waterfall.mp4?s=mp4-640x640-is&k=20&c=I2JLYmtl9Uk1yrBDIZqnQrhIubDCJ1TlsPIlyxW-gxo=" id="vid" ></video>
+      <div class="show-controls">
+        <div class="controls-container">
+            <div class="bar">
+                <div class="current-dur">
+                </div>
+            </div>    
+            <div class="controls">
+                <div class="play-sound">
+                    <i class="fa-solid fa-play" title="play"></i>
+                    <i class="fa-solid fa-volume-high" title="mute"></i>
+                    <div class="volume-bar" title="Change Volume">
+                        <div class="current-vol">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="speed-full">
+                    <div class="speed">
+                      <select class="playback-speed"> 
+                        <option class="option" value="0.5">0.5 x</option>
+                        <option class="option" value="0.75">0.75 x</option>
+                        <option class="option" value="1" selected>1 x</option>
+                        <option class="option" value="1.5">1.5 x</option>
+                        <option class="option" value="2">2 x</option>
+                      </select> 
+                    </div>
+
+                    <span class="curr-time">0:00/</span><span class="duration">0:30</span>
+                    <i class="fa-solid fa-expand"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        </div>
+         
+    </div>
+    <script src="https://kit.fontawesome.com/cc65afd5bb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
